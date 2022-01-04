@@ -1,0 +1,16 @@
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\bin\Debug\net5.0\ClassExample2022.exe
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\bin\Debug\net5.0\ClassExample2022.deps.json
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\bin\Debug\net5.0\ClassExample2022.runtimeconfig.json
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\bin\Debug\net5.0\ClassExample2022.runtimeconfig.dev.json
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\bin\Debug\net5.0\ClassExample2022.dll
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\bin\Debug\net5.0\ref\ClassExample2022.dll
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\bin\Debug\net5.0\ClassExample2022.pdb
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\obj\Debug\net5.0\ClassExample2022.csproj.AssemblyReference.cache
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\obj\Debug\net5.0\ClassExample2022.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\obj\Debug\net5.0\ClassExample2022.AssemblyInfoInputs.cache
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\obj\Debug\net5.0\ClassExample2022.AssemblyInfo.cs
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\obj\Debug\net5.0\ClassExample2022.csproj.CoreCompileInputs.cache
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\obj\Debug\net5.0\ClassExample2022.dll
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\obj\Debug\net5.0\ref\ClassExample2022.dll
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\obj\Debug\net5.0\ClassExample2022.pdb
+C:\Users\Andrew Stamps\source\repos\ClassExample2022\obj\Debug\net5.0\ClassExample2022.genruntimeconfig.cache
