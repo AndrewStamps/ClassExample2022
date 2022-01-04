@@ -31,7 +31,7 @@ namespace ClassExample2022 {
             }//end if
         }//end method
 
-        public string ToString() {
+        override public string ToString() {
             //todo print data of all nodes in the list
         }//end if
     }
