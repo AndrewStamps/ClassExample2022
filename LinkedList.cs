@@ -31,8 +31,18 @@ namespace ClassExample2022 {
             }//end if
         }//end method
 
+        public object Get(int index) {
+            if (index < 0) {
+                throw new Exception($"out of bounds 0 is the lower bound of a link list, you sent a {index}");      
+            }
+            
+            return null;
+            //implement a method to get an item from a position in the linked list
+        }//end method
+
         override public string ToString() {
             //todo print data of all nodes in the list
+            return "";
         }//end if
     }
 }

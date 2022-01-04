@@ -12,6 +12,7 @@ namespace ClassExample2022 {
             classList.Add("Zach");
             classList.Add("Courtney");
 
+            Console.WriteLine(classList.Get(-3));//should return "Alex"  
             Console.WriteLine(classList.ToString());  
         }//end method
 
