@@ -8,11 +8,17 @@ namespace ClassExample2022 {
 
             classList.Add("Andrew");
             classList.Add("Alex");
-            classList.Add("Jose");
+            classList.Add(7);
             classList.Add("Zach");
             classList.Add("Courtney");
 
-            Console.WriteLine(classList.Get(3));//should return "Alex"  
+            //Console.WriteLine(classList.Get(-3));
+            Console.WriteLine(classList.Get(0));   
+            Console.WriteLine(classList.Get(3));   
+            Console.WriteLine(classList.Get(4));   
+            Console.WriteLine(classList.Get(5));
+                                                
+
             Console.WriteLine(classList.ToString());  
         }//end method
 

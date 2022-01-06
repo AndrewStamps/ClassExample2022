@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace ClassExample2022 {
     class LinkedList {
         private Node _head;
+        private int _length = 0;
 
         public void Add(object data) {
             if (_head == null) {
@@ -29,20 +30,49 @@ namespace ClassExample2022 {
                 //LINK NEW NODE ONTO END OF LIST
                 currentNode._next = newNode;
             }//end if
+
+            _length += 1;
         }//end method
 
         public object Get(int index) {
-            if (index < 0) {
-                throw new Exception($"out of bounds 0 is the lower bound of a link list, you sent a {index}");      
-            }
+            Node currentNode = _head;
+            int currentIndex = 0;
+
+            if (index < 0 || index >= _length) {
+                throw new Exception($"Out of bounds. List has indicies [0 to {_length - 1}], a {index} was sent");      
+            }//end if
+
+
+            while(currentIndex != index) {      
+                currentNode = currentNode._next;
+                currentIndex += 1;
+            }//end while
             
-            return null;
-            //implement a method to get an item from a position in the linked list
+            return currentNode.GetData();
+
         }//end method
 
         override public string ToString() {
-            //todo print data of all nodes in the list
-            return "";
+            string listContents = "[";
+
+            //START AT HEAD OF LIST
+            Node currentNode = _head;
+
+            //REACH END OF LIST AND BUILD STRING ALONG THE WAY
+            while(currentNode != null) {
+   
+                if (currentNode._next != null){
+                    listContents += currentNode.GetData().ToString() + ", ";
+                }else{
+                    listContents += currentNode.GetData().ToString() ;
+                }//end if
+          
+                currentNode = currentNode._next;
+            }//end while
+
+            listContents += "]";
+
+            return listContents;
         }//end if
     }
 }
